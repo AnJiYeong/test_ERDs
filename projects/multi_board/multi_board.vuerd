@@ -43,8 +43,8 @@
   "table": {
     "tables": [
       {
-        "name": "NEWS",
-        "comment": "뉴스",
+        "name": "MULTI_BOARD",
+        "comment": "다중게시판",
         "columns": [
           {
             "name": "UNIQUE_ID",
@@ -212,9 +212,9 @@
           "active": false,
           "left": 15,
           "top": 16,
-          "zIndex": 326,
-          "widthName": 60,
-          "widthComment": 60
+          "zIndex": 370,
+          "widthName": 87.76953125,
+          "widthComment": 67
         },
         "visible": true,
         "id": "2908b174-7695-4784-bf1e-c75dd4d2e4f2"
@@ -297,7 +297,7 @@
           "active": false,
           "left": 16,
           "top": 272,
-          "zIndex": 327,
+          "zIndex": 361,
           "widthName": 65.43212890625,
           "widthComment": 84.5703125
         },
