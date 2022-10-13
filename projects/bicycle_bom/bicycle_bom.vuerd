@@ -117,10 +117,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 22,
-          "top": 63,
-          "zIndex": 44,
+          "active": true,
+          "left": 39,
+          "top": 296,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -144,8 +144,8 @@
           "columnIds": [
             "33949292-8590-4de8-9e30-d0ee05053109"
           ],
-          "x": 446.12744140625,
-          "y": 63,
+          "x": 463.12744140625,
+          "y": 296,
           "direction": "top"
         },
         "end": {
@@ -153,8 +153,8 @@
           "columnIds": [
             "dd2acbcf-e2f2-4165-9f6b-23572fac9dcb"
           ],
-          "x": 466.12744140625,
-          "y": 83,
+          "x": 483.12744140625,
+          "y": 316,
           "direction": "right"
         },
         "constraintName": "fk_bicycle_to_bicycle",
