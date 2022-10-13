@@ -212,7 +212,7 @@
           "active": false,
           "left": 15,
           "top": 16,
-          "zIndex": 370,
+          "zIndex": 5,
           "widthName": 87.76953125,
           "widthComment": 67
         },
@@ -297,7 +297,7 @@
           "active": false,
           "left": 16,
           "top": 272,
-          "zIndex": 361,
+          "zIndex": 4,
           "widthName": 65.43212890625,
           "widthComment": 84.5703125
         },
@@ -359,7 +359,7 @@
           "active": false,
           "left": 823,
           "top": 28,
-          "zIndex": 339,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 60
         },
@@ -421,7 +421,7 @@
           "active": false,
           "left": 14,
           "top": 622,
-          "zIndex": 329,
+          "zIndex": 6,
           "widthName": 85.94140625,
           "widthComment": 71.5703125
         },
@@ -479,8 +479,8 @@
             "id": "ebee5f02-cc2b-4b38-b16b-ddb4d9e292cc"
           },
           {
-            "name": "CLASSIFICATION_ID_CHILD",
-            "comment": "하위 분류 대표값",
+            "name": "CLASSIFICATION_ID_PARENT",
+            "comment": "상위 분류 대표값",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -494,7 +494,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 159.97412109375,
+              "widthName": 169.654296875,
               "widthComment": 102.140625,
               "widthDataType": 89.29296875,
               "widthDefault": 60
@@ -506,7 +506,7 @@
           "active": false,
           "left": 15,
           "top": 451,
-          "zIndex": 328,
+          "zIndex": 23,
           "widthName": 117.6923828125,
           "widthComment": 71.5703125
         },
@@ -568,7 +568,7 @@
           "active": false,
           "left": 832,
           "top": 331,
-          "zIndex": 338,
+          "zIndex": 2,
           "widthName": 99.322265625,
           "widthComment": 60
         },
@@ -630,7 +630,7 @@
           "active": false,
           "left": 833,
           "top": 633,
-          "zIndex": 337,
+          "zIndex": 1,
           "widthName": 60,
           "widthComment": 60
         },
@@ -654,7 +654,7 @@
           "columnIds": [
             "ebee5f02-cc2b-4b38-b16b-ddb4d9e292cc"
           ],
-          "x": 513.40771484375,
+          "x": 523.087890625,
           "y": 451,
           "direction": "top"
         },
@@ -663,7 +663,7 @@
           "columnIds": [
             "f149f6d7-4d33-4aaf-81d9-863d8588011b"
           ],
-          "x": 533.40771484375,
+          "x": 543.087890625,
           "y": 483.625,
           "direction": "right"
         },
@@ -758,7 +758,7 @@
           "columnIds": [
             "ebee5f02-cc2b-4b38-b16b-ddb4d9e292cc"
           ],
-          "x": 533.40771484375,
+          "x": 543.087890625,
           "y": 548.875,
           "direction": "right"
         },
