@@ -93,8 +93,8 @@
             "id": "61e414ec-c188-4712-beaf-5e369ce216be"
           },
           {
-            "name": "UNIQUE_ID_PARENT",
-            "comment": "상위대표값",
+            "name": "UNIQUE_ID_CHILD",
+            "comment": "하위대표값",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -108,7 +108,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 120.83447265625,
+              "widthName": 111.154296875,
               "widthComment": 67,
               "widthDataType": 89.29296875,
               "widthDefault": 60
@@ -117,7 +117,7 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 70,
           "top": 78,
           "zIndex": 4,
@@ -144,7 +144,7 @@
           "columnIds": [
             "c5a007b9-3f43-405e-b1dc-34ded2165ce9"
           ],
-          "x": 494.12744140625,
+          "x": 484.447265625,
           "y": 78,
           "direction": "top"
         },
@@ -153,7 +153,7 @@
           "columnIds": [
             "ab0c8db8-b578-4e13-ab62-d060ed73e045"
           ],
-          "x": 514.12744140625,
+          "x": 504.447265625,
           "y": 98,
           "direction": "right"
         },

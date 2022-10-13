@@ -3,7 +3,7 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
+    "scrollTop": -2,
     "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
@@ -93,8 +93,8 @@
             "id": "33949292-8590-4de8-9e30-d0ee05053109"
           },
           {
-            "name": "UNIQUE_ID_PARENT",
-            "comment": "상위대표값",
+            "name": "UNIQUE_ID_CHILD",
+            "comment": "하위대표값",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -108,7 +108,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 120.83447265625,
+              "widthName": 111.154296875,
               "widthComment": 67,
               "widthDataType": 89.29296875,
               "widthDefault": 60
@@ -117,10 +117,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 39,
           "top": 296,
-          "zIndex": 2,
+          "zIndex": 11,
           "widthName": 60,
           "widthComment": 60
         },
@@ -144,7 +144,7 @@
           "columnIds": [
             "33949292-8590-4de8-9e30-d0ee05053109"
           ],
-          "x": 463.12744140625,
+          "x": 453.447265625,
           "y": 296,
           "direction": "top"
         },
@@ -153,7 +153,7 @@
           "columnIds": [
             "dd2acbcf-e2f2-4165-9f6b-23572fac9dcb"
           ],
-          "x": 483.12744140625,
+          "x": 473.447265625,
           "y": 316,
           "direction": "right"
         },
