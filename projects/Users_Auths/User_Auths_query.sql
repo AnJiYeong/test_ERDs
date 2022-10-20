@@ -4,6 +4,9 @@
 -- + 회원 가입 모두(U1~U4)
 -- + 회원 탈퇴(U2, U4)
 
+-- study_sqls DB 생성
+CREATE SCHEMA `study_sqls` ;
+
 -- Tables 생성
 CREATE TABLE AUTH_NAMES
 (
